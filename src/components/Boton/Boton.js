@@ -1,12 +1,12 @@
 import './Boton.css';
-const Boton = ({titulo, tipo = ''})=>{
+const Boton = ({titulo, tipo = '', className = ""})=>{
     
    if(tipo === "submit")
    {
-        return <button type={tipo}>{titulo}</button>;
+        return <button className = {className} type={tipo}>{titulo}</button>;
    }
    else {
-        return <button>{titulo}</button>
+        return <button className = {className}>{titulo}</button>
    }
 }
 export default Boton;

@@ -17,8 +17,8 @@ function App() {
                         <Formulario nombre = "Nombre Dueño" tipo="text"/>
                         <Formulario nombre = "Fecha" tipo="date"/>
                         <Formulario nombre = "hora" tipo="time"/>
-                        <Formulario nombre = "Sintomas" tipo="textarea"/>
-                        <Boton titulo="AGREGAR CITA" tipo = "submit"/>
+                        <Formulario nombre = "Sintomas" tipo="textarea" placeholder= "" />
+                        <Boton className="u-full-width button-primary" titulo="AGREGAR CITA" tipo = "submit"/>
                     </form>
                 </div>
                 <div className = "one-half column">

@@ -9,7 +9,7 @@ const Cita=({mascota, dueño, fecha, hora, sintomas})=>{
                 <p>Fecha: <span>{fecha}</span></p>
                 <p>Hora: <span>{hora}</span></p>
                 <p>Sintomas: <span>{sintomas}</span></p>
-                <Boton className="button eliminar u-full-width" titulo = "Eliminar ×"/>
+                <Boton className="button elimnar u-full-width" titulo = "Eliminar ×"/>
             </div>
         </>
     )
